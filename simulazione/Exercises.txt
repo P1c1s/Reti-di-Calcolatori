@@ -1,0 +1,2 @@
+# Se si scollega un pc dalla rete che succede?
+ip link set down ethX

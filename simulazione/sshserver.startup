@@ -1,0 +1,11 @@
+# custom
+/shared/./up.sh
+systemctl start ssh
+useradd -m -p $(perl -e 'print crypt($ARGV[0], "password")' 'admin') admin
+
+# to eth0 an IPv4 address is assigned
+ip address add 192.168.179.101/24 dev eth0
+
+# a default router is selected
+ip route add default via 192.168.179.1 dev eth0
+
