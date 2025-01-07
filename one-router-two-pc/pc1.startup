@@ -1,2 +1,2 @@
-#Assigned IPv4 address to eth0
+cd #Assigned IPv4 address to eth0
 ip address add 192.168.1.2/24 dev eth0
