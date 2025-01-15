@@ -20,3 +20,7 @@
 `ip <>`
 `arp`
 `arping`
+`traceroute`
+`dig`
+`ping`
+`iptables`
