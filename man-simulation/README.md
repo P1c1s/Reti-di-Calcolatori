@@ -1,15 +1,15 @@
 # Network scenario
 
 ## Index
-1. [Network scheme](#netScheme)
+1. [Network scheme](#scheme)
 2. [Description](#description)
 3. [Examples](#examples)
-4. [Commands](#notes)
+4. [Commands](#commands)
 
 ## Network scheme
 ![alt text](network.png)
 
-## Description {#description}
+## Description
 * In the local network, all hosts can be reached through the hostname
 e.g. In Lan A, the thinkpad can ping macbookpro through ip `ping 192.168.179.10` or it can ping macbookpro throw hostname  `ping macbookpro` 
 #### Lan A
@@ -63,7 +63,7 @@ e.g. In Lan A, the thinkpad can ping macbookpro through ip `ping 192.168.179.10`
 **Firewall**: disabled
 
 
-## Examples {#examples}
+## Examples
 
 ##### 1. Arping
    >##### Task 1
